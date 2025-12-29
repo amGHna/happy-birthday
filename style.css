@@ -137,6 +137,7 @@ img {
     margin-bottom: -10px;
     font-weight: 600;
     text-transform: uppercase;
+    margin-top: -20px;
 }
 
 .birthday-banner {
@@ -145,6 +146,7 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-top: -40px;
 }
 
 
