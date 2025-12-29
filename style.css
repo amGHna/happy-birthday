@@ -138,3 +138,11 @@ img {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.birthday-banner {
+    max-width: 380px;   /* ⬅ controls size */
+    width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
