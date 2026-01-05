@@ -22,13 +22,6 @@ $('#play').click(function () {
     audio.play();
 
 });
-var typed = new Typed("#typed", {
-    stringsElement: '#typed-strings',
-    typeSpeed: 30,      // ⬅ slower & elegant
-    backSpeed: 15,
-    loop: true,
-    smartBackspace: true
-});
 
 var retina = window.devicePixelRatio,
 
