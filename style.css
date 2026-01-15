@@ -146,9 +146,18 @@ img {
     margin: 0 auto;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;   /* Keeps banner on top and text below */
+    align-items: center;      /* Centers horizontally */
+    justify-content: center;  /* Centers vertically */
+    min-height: 100vh;        /* Takes up the full height of the phone/computer screen */
+    width: 100%;
+}
 
 .main .container {
-    transform: translateY(-10px); /* adjust -20 / -30 / -50 */
+    /* transform: translateY(-10px); /* adjust -20 / -30 / -50 */
+    width: 100%;
 }
 
 
