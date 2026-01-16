@@ -80,10 +80,10 @@ document.addEventListener("DOMContentLoaded", function () {
         DEG_TO_RAD = PI / 180,
         RAD_TO_DEG = 180 / PI,
         colors = [
-            ["#df0049", "#660671"],
-            ["#00e857", "#005291"],
-            ["#2bebbc", "#05798a"],
-            ["#ffd200", "#b06c00"]
+            ["#FFD700", "#B8860B"], // Gold and Dark Gold
+            ["#FFEE8C", "#D4AF37"], // Soft Yellow (matches your text) and Metallic Gold
+            ["#FAFAD2", "#DAA520"], // Light Goldenrod and Goldenrod
+            ["#FFDF00", "#996515"]  // Bright Yellow and Deep Bronze
         ];
 
     function Vector2(_x, _y) {
