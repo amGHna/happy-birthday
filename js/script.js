@@ -14,6 +14,8 @@ $(".main").fadeOut(1);
 $('#play').click(function () {
     $(".loader").fadeOut(1500);
     $(".main").fadeIn("slow");
+    $(".birthday-title").addClass("pulse-active");
+    $(".birthday-message").addClass("pulse-active");
     sf.destroy();
     $('.balloon-border').animate({
         top: -500
