@@ -17,7 +17,7 @@ $('#play').click(function () {
     sf.destroy();
     $('.balloon-border').animate({
         top: -500
-    }, 8000);
+    }, 12000);
 
 });
 
